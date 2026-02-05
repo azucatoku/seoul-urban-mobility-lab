@@ -1,0 +1,25 @@
+# Environment Variables
+.env
+.venv
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# Large Data Files (Add your raw data files here if they exceed 100MB)
+*.csv
+*.xlsx
+*.ipynb_checkpoints/
+backup_csv/
+csv/
+
+# OS
+.DS_Store
+Thumbs.db
