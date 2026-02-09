@@ -29,15 +29,15 @@
 
 ```bash
 seoul-urban-mobility-lab/
-├── 00... ~ 03...ipynb   # 📊 데이터 전처리 및 DB 적재를 위한 주피터 노트북
-├── backend/             # ⚙️ 데이터 API 서버 (FastAPI)
+├── 00... ~ 03...ipynb   # 데이터 전처리 및 DB 적재를 위한 주피터 노트북
+├── backend/             # 데이터 API 서버 (FastAPI)
 │   ├── main.py          # 서버 실행 메인 파일
 │   └── dbconnect.py     # DB 연결 모듈
-├── frontend/            # 🖥️ 사용자 대시보드 (Streamlit)
+├── frontend/            # 사용자 대시보드 (Streamlit)
 │   ├── app.py           # 앱 실행 메인 파일
 │   ├── Home.py          # 홈페이지 화면
 │   └── views/           # 각 분석 페이지 (차트, 지도 등)
-├── create_table.sql     # 🗄️ DB 테이블 생성 쿼리
+├── create_table.sql     # DB 테이블 생성 쿼리
 └── requirements.txt     # (권장) 필요한 라이브러리 목록
 ```
 
@@ -74,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## 📝 주요 기능 미리보기
+## 주요 기능 미리보기
 
 ### 1. Trend Analysis (이동 패턴 분석)
 - 시간대별로 어르신들이 많이 찾는 역이 어떻게 변하는지(Rhythm) 보여줍니다.
